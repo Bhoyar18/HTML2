@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{ 
+    height: 100vh;
+    background:wheat;
+    background-size: cover;
+  
+} 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+header .navbaar{
+    
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navbaar .logo{
+    font-size:2.1rem;
+    font-weight:600;
+}
+/* .navbaar .logo span{
+    color: red;
+} */
+.navbaar .navbaar2{
+    
+    display: flex;
+    gap: 40px;
+}
+.navbaar a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.navbaar a:hover{
+    color: grey;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero .content{
+    color:black;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.hero .content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
+.hero .content p{
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+.hero .content button{
+    background: white;
+    outline: none;
+    margin-top: 10px;
+    font-size: 1rem; 
+    padding: 9px 9px;
+     border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero .content button:hover{
+    background:#C0683E;
+    color: white;
+}
+.img5{
+    height: 500px;
+    margin-bottom: -20px;
+}
+.img3{
+    margin-left: -235px;
+    margin-top: -219px;
+}
+.images{
+    display: flex;
+    justify-items: center;
+    overflow-x: hidden;
+}
+.images img{
+    height: 400px;
+    width: 400px;
+    margin:20px ;
+}
+.images2{
+    display: flex;
+    justify-items: center;
+    overflow-x: hidden;
+}
+.images2 img{
+    height: 400px;
+    width: 400px;
+    margin:20px ;
+}
+/* @media screen and (min-width: 480px) {
+    .img5{
+        height: 100px;
+        margin-bottom: -20px;
+    }
+} */
