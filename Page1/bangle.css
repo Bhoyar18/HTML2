@@ -109,9 +109,31 @@ header .navbaar{
     width: 400px;
     margin:20px ;
 }
-/* @media screen and (min-width: 480px) {
-    .img5{
-        height: 100px;
-        margin-bottom: -20px;
-    }
-} */
+.footer{
+    background-color: bisque;
+    padding: 50px;
+}
+.footer2{
+    max-width: 1170px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 0 25px;
+    
+}
+.footer3 .footer-col  {
+    display: flex;
+    text-decoration: none;  
+} 
+
+ .footer-col ul li {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+}
+/* .footer-col2{
+   display: flex;
+}   */
+
+ 
+
+
