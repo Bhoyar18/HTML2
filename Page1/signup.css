@@ -1,22 +1,47 @@
 
 
-body{
-    background-color: bisque;
-     
-    /* background-image: url("https://laxmipearls.com/wp-content/uploads/2023/09/MG_1809.jpg"); */
-    /* background-size: cover; */ 
+.bgimage {
+   
+
+    background-image: url("https://laxmipearls.com/wp-content/uploads/2023/09/MG_1810.jpg");
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    height: 100vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover
 }
-form{
-    
-    background-image: url("https://laxmipearls.com/wp-content/uploads/2023/09/MG_1809.jpg");
-    /* background-size: cover; */
-    margin: 60px;
-    margin-top: 68px;
-    margin-left: 105px;
-    padding: 40px;
-    padding-top: 20px;
-    padding-left: 30px;
-    width: 1000px;
-    height: 150vh;
-    color:whitesmoke;
+
+.bgtext {
+    /* background-color: rgb(0,0,0);  */
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute; 
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    /* z-index: 2; */
+    width: 80%;
+    height: 100vh;
+    padding: 183px;
+    text-align: center;
+}
+
+.button{
+    background: white;
+    outline: none;
+    margin-top: 10px;
+    font-size: 1rem; 
+    padding: 9px 9px;
+     border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.button:hover{
+    background: whitesmoke;
+    color: black;
+    font-weight: bold;
+
 }
