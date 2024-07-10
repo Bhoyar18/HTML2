@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 3px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
@@ -114,6 +114,11 @@ header .navbaar{
 .footer{
     background-color: bisque;
     padding: 30px;
+    width: 1078px;
+    margin-left: 97px;
+    border: 5px solid brown;
+    
+  
 }
 
 /* .footer2 .footer-col{
