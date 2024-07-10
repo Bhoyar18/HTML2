@@ -86,14 +86,15 @@ header .navbaar{
     margin-bottom: -20px;
 }
 .img3{
-    margin-left: -235px;
-    margin-top: -219px;
+    margin-left: -231px;
+    margin-top: -200px;
 }
 .images{
     display: flex;
     justify-items: center;
     overflow-x: hidden;
 }
+
 .images img{
     height: 400px;
     width: 400px;
@@ -103,13 +104,14 @@ header .navbaar{
     display: flex;
     justify-items: center;
     overflow-x: hidden;
+   
 }
 .images2 img{
     height: 400px;
     width: 400px;
     margin:20px ;
+    
 }
-
 
 .footer{
     background-color: bisque;
@@ -119,6 +121,7 @@ header .navbaar{
     border: 4px solid black;
     border-bottom-style: double;
     border-left-style: double;
+   
    
     
   
