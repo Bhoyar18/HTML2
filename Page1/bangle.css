@@ -116,7 +116,10 @@ header .navbaar{
     padding: 30px;
     width: 1078px;
     margin-left: 97px;
-    border: 5px solid brown;
+    border: 4px solid black;
+    border-bottom-style: double;
+    border-left-style: double;
+   
     
   
 }
