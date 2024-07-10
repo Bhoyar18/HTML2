@@ -109,6 +109,8 @@ header .navbaar{
     width: 400px;
     margin:20px ;
 }
+
+
 .footer{
     background-color: bisque;
     padding: 30px;
@@ -127,6 +129,7 @@ header .navbaar{
 .footer3 .footer-col{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(100px,250px));
+    /* gap: 3.5rem; */
     
 } 
 
