@@ -11,11 +11,12 @@ body{
   
 } 
 header{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
+    background-color: #C0683E;
 }
 header .navbaar{
     
@@ -26,6 +27,7 @@ header .navbaar{
     justify-content: space-between;
 }
 .navbaar .logo{
+    
     font-size:2.1rem;
     font-weight:600;
 }
@@ -43,7 +45,7 @@ header .navbaar{
     transition: 0.2s ease;
 }
 .navbaar a:hover{
-    color: grey;
+    color: whitesmoke;
 }
 .hero{
     height: 100vh;
@@ -114,17 +116,12 @@ header .navbaar{
 }
 
 .footer{
-    background-color: bisque;
+    background-color: #C0683E;
     padding: 30px;
-    width: 1078px;
-    margin-left: 97px;
-    border: 4px solid black;
-    border-bottom-style: double;
-    border-left-style: double;
-   
-   
-    
-  
+    color: bisque;
+    height: 250px;
+    /* width: 1078px; */
+    /* margin-left: 97px; */
 }
 
 /* .footer2 .footer-col{
