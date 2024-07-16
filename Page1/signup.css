@@ -3,19 +3,20 @@
 .bgimage {
    
 
-    background-image: url("https://laxmipearls.com/wp-content/uploads/2023/09/MG_1810.jpg");
-    filter: blur(7px);
-    -webkit-filter: blur(7px);
+    /* background-image: url("https://laxmipearls.com/wp-content/uploads/2023/09/MG_1810.jpg"); */
+    background:wheat;
+     filter: blur(7px);  
+    -webkit-filter: blur(7px); 
     height: 110vh;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+     background-size: cover
 }
 
 .bgtext {
     /* background-color: rgb(0,0,0);  */
-    background-color: rgba(0,0,0, 0.4);  
-    color: white;
+    /* background-color: rgba(0,0,0, 0.4);   */
+    color: black;
     font-weight: bold;
     font-size: 30px;
     position: absolute; 
@@ -28,54 +29,21 @@
     /* padding: 183px; */
     text-align: center;
 }
-.name{
+
+.form{
     /* border: 5px solid white; */
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius:30px ;
     border-bottom-right-radius: 30px ;
-    box-shadow: 0px 10px 12px 0px white ;
+    /* box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.583); */
     /* box-shadow: 10px 10px lightblue; */
     margin-left: 308px;
     margin-right: 335px;
     padding-top: 13px;
 
 }
-.contact{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius:30px ;
-    border-bottom-right-radius: 30px ;
-    box-shadow: 0px 10px 12px 0px white ;
-    /* box-shadow: 10px 10px lightblue; */
-    margin-left: 308px;
-    margin-right: 335px;
-    padding-top: 13px;
-}
-.email{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius:30px ;
-    border-bottom-right-radius: 30px ;
-    box-shadow: 0px 10px 12px 0px white ;
-    /* box-shadow: 10px 10px lightblue; */
-    margin-left: 308px;
-    margin-right: 335px;
-    padding-top: 13px;
 
-}
-.pass{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius:30px ;
-    border-bottom-right-radius: 30px ;
-    box-shadow: 0px 10px 12px 0px white ;
-    /* box-shadow: 10px 10px lightblue; */
-    margin-left: 308px;
-    margin-right: 335px;
-    padding-top: 13px;
-
-}
 .button{
     background: white;
     outline: none;

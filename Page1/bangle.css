@@ -6,6 +6,7 @@
 }
 body{ 
     height: 100vh;
+    width: 100%;
     background:wheat;
     background-size: cover;
   
@@ -66,7 +67,7 @@ header .navbaar{
 }
 .hero .content p{
     font-weight: 300;
-    margin-top: 15px;
+    margin-top: 10px;
     max-width: 600px;
 }
 .hero .content button{
@@ -84,12 +85,14 @@ header .navbaar{
     color: white;
 }
 .img5{
-    height: 500px;
+    height: 400px;
     margin-bottom: -20px;
+   
 }
 .img3{
     margin-left: -231px;
     margin-top: -200px;
+    
 }
 .images{
     display: flex;
@@ -98,8 +101,8 @@ header .navbaar{
 }
 
 .images img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin:20px ;
 }
 .images2{
@@ -109,8 +112,8 @@ header .navbaar{
    
 }
 .images2 img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin:20px ;
     
 }
