@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;   
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: wheat;
+    color: black
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 9%;
+    transition: all ease .55s;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo i{
+vertical-align: middle;
+color: palevioletred;
+font-size: 35px;
+margin-right: 5px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin:  25px;
+    text-decoration: none;
+    transition: all ease .55s;
+  
+
+}
+.navbar a:hover{
+    color: palevioletred;
+}
+.navbar a.active{
+    color:  palevioletred;
+}
+.h-main{
+    display: flex;
+    align-items: center;
+}
+.h-btn{
+    display: inline-block;
+    padding: 10px 25px;
+    color: whitesmoke;
+    background-color: palevioletred;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px ;
+    border: 2px solid palevioletred;
+    margin-right: 20px;
+    transition: all ease .55s;
+}
+.h-btn:hover{
+    /* background: transparent; */
+    background: lightblue;
+    border:3px solid blueviolet;
+    color: black;
+}
