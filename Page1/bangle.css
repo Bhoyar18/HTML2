@@ -124,17 +124,25 @@ header .navbaar{
     margin-top: 50px;
 }
 .footer3 .footer-col{
+    color: white;
+    margin: 20px;
     padding: 20px;
     display: flex;
-    
-   
-    
+    gap: 60px;  
     
 } 
 .footer3 .footer-col li{
-  list-style: none;
-}
+    list-style: none;
+    margin-top: 10px;
 
+}
+.footer3 .footer-col li a{
+  color: black;
+ 
+}
+.footer3 .footer-col i{
+    color: black;
+}
 
  
 
