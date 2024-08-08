@@ -119,41 +119,24 @@ header .navbaar{
     
 }
 
-.footer{
+.footer3{
     background-color: #C0683E;
-    padding: 30px;
-    color: bisque;
-    height: 250px;
-    /* width: 1078px; */
-    /* margin-left: 97px; */
+    margin-top: 50px;
 }
-
-/* .footer2 .footer-col{
-    max-width: 1170px;
-    background-color: antiquewhite;
-    margin: auto;
-    padding: 0 25px;
+.footer3 .footer-col{
+    padding: 20px;
     display: flex;
+    
    
     
-} */
-
-.footer3 .footer-col{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(100px,250px));
-    /* gap: 3.5rem; */
     
 } 
+.footer3 .footer-col li{
+  list-style: none;
+}
 
 
- /* .footer-col ul li {
-    width: 25%;
-    padding: 0 15px;
-    display: flex;
-} */
-/* .footer-col2{
-   display: flex;
-}   */
+ 
 
  
 
