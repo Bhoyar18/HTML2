@@ -1,5 +1,43 @@
 
-
+header{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #C0683E;
+}
+header .navbaar{
+    
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navbaar .logo{
+    
+    font-size:2.1rem;
+    font-weight:600;
+}
+/* .navbaar .logo span{
+    color: red;
+} */
+.navbaar .navbaar2{
+    
+    display: flex;
+    gap: 60px;
+}
+.navbaar a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+   
+}
+.navbaar a:hover{
+    color: palegreen;
+}
 .bgimage {
    
 
@@ -20,7 +58,7 @@
     font-weight: bold;
     font-size: 30px;
     position: absolute; 
-    top: 42%;
+    top:62%;
     left: 50%;
     transform: translate(-50%, -40%);
     /* z-index: 2; */

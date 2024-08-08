@@ -41,12 +41,13 @@ header .navbaar{
     gap: 40px;
 }
 .navbaar a{
-    color: black;
+    color: white;
     text-decoration: none;
-    transition: 0.2s ease;
+    font-size: 18px;
+    font-weight: 600;
 }
 .navbaar a:hover{
-    color: whitesmoke;
+    color: palegreen;
 }
 .hero{
     height: 100vh;
