@@ -147,22 +147,25 @@ header .navbaar{
 /* =====================ABOUT PAGE CSS===================================== */
  
 .box1{
-    height: 200px;
-    width: 300px;
+    height: 210px;
+    width: 310px;
     border: 2px solid black;
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    background-color: white;
     
 }
 .box2{
-    height: 200px;
-    width: 300px;
+    height: 210px;
+    width: 310px;
     border: 2px solid black;
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    background-color: white;
 }
 .box3{
-    height: 200px;
-    width: 300px;
+    height: 210px;
+    width: 310px;
     border: 2px solid black;
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    background-color: white;
 }
 
