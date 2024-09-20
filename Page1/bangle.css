@@ -147,7 +147,7 @@ header .navbaar{
 /* =====================ABOUT PAGE CSS===================================== */
  
 .box1{
-    height: 210px;
+    height: 230px;
     width: 310px;
     border: 2px solid black;
     /* border-radius: 30px; */
@@ -155,14 +155,14 @@ header .navbaar{
     
 }
 .box2{
-    height: 210px;
+    height: 230px;
     width: 310px;
     border: 2px solid black;
     /* border-radius: 30px; */
     background-color: white;
 }
 .box3{
-    height: 210px;
+    height: 230px;
     width: 310px;
     border: 2px solid black;
     /* border-radius: 30px; */
