@@ -26,21 +26,13 @@ header{
     padding: 27px 9%;
     transition: all ease .55s;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    color:black;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-}
 .logo i{
-vertical-align: middle;
+/* vertical-align: middle; */
 color: palevioletred;
 font-size: 35px;
-margin-right: 5px;
-
+margin-right: 5px; 
 }
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -63,11 +55,11 @@ margin-right: 5px;
 .navbar a.active{
     color:  palevioletred;
 }
-.h-main{
+/* .h-main{
     display: flex;
     align-items: center;
-}
-.h-btn{
+} */
+ /* .h-btn{
     display: inline-block;
     padding: 10px 25px;
     color: whitesmoke;
@@ -78,10 +70,11 @@ margin-right: 5px;
     border: 2px solid palevioletred;
     margin-right: 20px;
     transition: all ease .55s;
-}
-.h-btn:hover{
-    /* background: transparent; */
+} */
+
+/* .h-btn:hover{
+    background: transparent; 
     background: lightblue;
     border:3px solid blueviolet;
     color: black;
-}
+}  */
