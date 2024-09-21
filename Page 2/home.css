@@ -11,7 +11,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-    background: wheat;
+    /* background: wheat; */
     color: black
 }
 header{
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     padding: 6px 11%;
     transition: all ease .55s;
-    background-color: teal;
+    background-color: tan;
 }
 .logo i{
 /* vertical-align: middle; */
@@ -42,7 +42,7 @@ font-size: 39px;
 
 .navbar a{
     color: black;
-    font-size: 15px;
+    font-size: 21px;
     font-weight: 600;
     margin:  25px;
     text-decoration: none;
@@ -54,7 +54,7 @@ font-size: 39px;
     color: palevioletred;
 }
 .navbar a.active{
-    color:  palevioletred;
+    color:  whitesmoke;
 }
 /* .h-main{
     display: flex;
