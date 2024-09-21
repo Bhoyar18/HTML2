@@ -23,14 +23,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 27px 9%;
+    padding: 6px 11%;
     transition: all ease .55s;
+    background-color: teal;
 }
 .logo i{
 /* vertical-align: middle; */
 color: palevioletred;
-font-size: 35px;
-margin-right: 5px; 
+font-size: 39px;
+/* margin-right: 5px;  */
 }
 
 .navbar{
@@ -46,7 +47,7 @@ margin-right: 5px;
     margin:  25px;
     text-decoration: none;
     transition: all ease .55s;
-  
+    
 
 }
 .navbar a:hover{
