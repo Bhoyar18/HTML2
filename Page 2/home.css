@@ -11,7 +11,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-    /* background: wheat; */
+    background: wheat;
     color: black
 }
 header{
@@ -23,9 +23,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6px 11%;
+    padding: 6px 9%;
     transition: all ease .55s;
-    background-color: tan;
+    /* \[background-color: antiquewhite; */
+   
 }
 .logo i{
 /* vertical-align: middle; */
