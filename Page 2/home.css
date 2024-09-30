@@ -24,8 +24,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 6px 9%;
-    transition: all ease .55s;
-    /* \[background-color: antiquewhite; */
+    background-color: grey;
+    height: 70px;
    
 }
 .logo i{
@@ -42,7 +42,7 @@ font-size: 39px;
 
 
 .navbar a{
-    color: black;
+    color: white;
     font-size: 21px;
     font-weight: 600;
     margin:  25px;
@@ -55,7 +55,7 @@ font-size: 39px;
     color: palevioletred;
 }
 .navbar a.active{
-    color:  whitesmoke;
+    color:  palevioletred;
 }
 /* .h-main{
     display: flex;
