@@ -11,7 +11,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-    background: wheat;
+    background-color: #f1f1f1;
     color: black
 }
 header{
@@ -52,7 +52,7 @@ font-size: 39px;
 
 }
 .navbar a:hover{
-    color: palevioletred;
+    color: aquamarine;
 }
 .navbar a.active{
     color:  palevioletred;
