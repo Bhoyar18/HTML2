@@ -4,7 +4,7 @@
 
   .left-side {
     width: 50%;
-    background: linear-gradient(to bottom right, #29ffc6, #20e3b2, #0ce6a8);
+    background: rgba(215, 193, 193, 0.383);
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@
 
   .logo-container {
     background-color: #222222;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 90px;
   }
 
   .logo-container h2 {
