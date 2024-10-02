@@ -12,16 +12,17 @@
   }
 
   .logo-container {
-    background-color: #222222;
-    padding: 10px;
-    border-radius: 90px;
+    /* background-color: #222222; */
+    border: 3px solid black;
+    padding: 7px;
+    /* border-radius: 90px; */
   }
 
-  .logo-container h2 {
+  /* .logo-container h2 {
     color: #ffffff;
     text-align: center;
     margin: 0;
-  }
+  } */
 
   .right-side {
     width: 50%;
