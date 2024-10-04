@@ -14,8 +14,11 @@
   .logo-container {
     /* background-color: #222222; */
     border: 3px solid black;
-    padding: 7px;
-    /* border-radius: 90px; */
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* border-radius: 30px; */
   }
 
   /* .logo-container h2 {
