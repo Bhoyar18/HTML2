@@ -105,6 +105,8 @@ header .navbaar{
     height: 300px;
     width: 300px;
     margin:20px ;
+    border-radius: 20px;
+
 }
 .images2{
     display: flex;
@@ -116,6 +118,7 @@ header .navbaar{
     height: 300px;
     width: 300px;
     margin:20px ;
+    border-radius: 20px;
     
 }
 .footer3{
